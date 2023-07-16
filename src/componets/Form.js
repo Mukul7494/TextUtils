@@ -99,7 +99,7 @@ export default function Form(props) {
         </p>
         <p>{text.length} charaters</p>
         <h2>Preview</h2>
-        <p>{text.length == "" ? "Nothing to show" : text}</p>
+        <p>{text.length === "" ? "Nothing to show" : text}</p>
       </div>
     </>
   );
